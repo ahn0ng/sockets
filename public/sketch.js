@@ -61,7 +61,7 @@ socket.on('playFreq', (freq) => {
 })
 
 function draw(){
-    //background(120,90,200);
+    background(120,90,200);
     console.log(otherCircles);
     otherCircles.forEach(circle => {
         displayCircle(circle);
